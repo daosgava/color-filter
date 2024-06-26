@@ -14,6 +14,7 @@ const App = () => {
 	const [dataset, setDataset] = useState([]);
 	const [filters, setFilters] = useState([]);
 	const [visibleColors, setVisibleColors] = useState([]);
+  const [error, setError] = useState(null);
 
 	useEffect(() => {
 		setIsDSLoading(true);
@@ -25,6 +26,7 @@ const App = () => {
 			})
 			.catch((error) => {
 				console.error("Failed to fetch dataset, error: ", error);
+        setError(error);
 			})
 			.finally(() => {
 				setIsDSLoading(false);
@@ -73,8 +75,10 @@ const App = () => {
 				display: "flex",
 				justifyContent: "center",
 				alignItems: "center",
+        flexDirection: "column",
 			}}
 		>
+      {error && <div>Error: {error.message}</div>}
 			<div style={{ display: "flex", flexDirection: "row", gap: 20 }}>
 				<div
 					style={{
