@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/color-filter/static/css/main.294e5b70.css",
+    "main.css": "/color-filter/static/css/main.16e65434.css",
     "main.js": "/color-filter/static/js/main.7c5a1d69.js",
     "static/js/453.c03b90df.chunk.js": "/color-filter/static/js/453.c03b90df.chunk.js",
     "index.html": "/color-filter/index.html",
-    "main.294e5b70.css.map": "/color-filter/static/css/main.294e5b70.css.map",
+    "main.16e65434.css.map": "/color-filter/static/css/main.16e65434.css.map",
     "main.7c5a1d69.js.map": "/color-filter/static/js/main.7c5a1d69.js.map",
     "453.c03b90df.chunk.js.map": "/color-filter/static/js/453.c03b90df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.294e5b70.css",
+    "static/css/main.16e65434.css",
     "static/js/main.7c5a1d69.js"
   ]
 }
